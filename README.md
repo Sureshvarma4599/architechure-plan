@@ -1,4 +1,5 @@
 # Common Repository Architecture Proposal for Web Projects
+## Online Consultation App as Example
 
 ## 1. Architecture Overview
 The proposed architecture aims to create a centralized, reusable, and scalable repository that serves as a foundation for multiple web projects. This repository will include UI components, utility functions, and shared business logic. The repository structure will prioritize consistency, modularity, and ease of maintenance.
