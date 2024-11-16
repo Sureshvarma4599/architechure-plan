@@ -135,6 +135,9 @@ export function AuthProvider({ children }) {
 - **Versioning**: Use semantic versioning (e.g., `1.0.0`) for releases.
 - **Documentation**: Maintain a `docs/` directory with markdown files for usage guidelines and API references.
 - **Testing**: Include Jest or React Testing Library for component and utility testing.
+- **Environtment** : Maintain different environment files for deploying
+- **Styles**: Use libraries for styling to reduce css files while rendering client side
+- **UX** : Use Suspense for better UX while laazy loading of components
 
 ### Recommended Tools and Libraries
 - **Version Control**: Git with feature branch workflow.
