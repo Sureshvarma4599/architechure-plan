@@ -53,12 +53,12 @@ src/
 
 ### Explanation of Key Directories
 - **`assets/`**: Contains all static resources such as images and fonts that are used across the application.
-- **`components/`**: A collection of shared, reusable UI components. Each component resides in its own folder, containing the component logic, associated styles, and unit tests.
+- **`components/`**: A collection of shared, reusable global UI components . Each component resides in its own folder, containing the component logic, associated styles, and unit tests.
 - **`context/`**: Contains the global state management logic using the Context API. Examples include `authContext.js` for user authentication and `userContext.js` for user-specific state.
 - **`modules/`**: Divided into domain-specific features, where each module contains its own pages, shared components, and logic. This promotes encapsulation and modularity.
 - **`redux/`**: For projects using Redux, this directory includes action creators, reducer functions, and the central store configuration.
 - **`services/`**: Contains service files for API interactions, abstracting HTTP requests and related operations. For instance, `authService.js` manages all authentication calls.
-- **`ui/`**: A centralized library of UI components designed for easy reuse and customization.
+- **`ui/`**: A centralized library of UI components designed for easy reuse and customization (ex: button,Input,Textarea,Dialog,Alert).
 - **`utils/`**: Includes utility functions that help with tasks like data formatting, performance enhancements (e.g., `debounce.js`), and other common operations.
 - **`styles/`**: Hosts global CSS and theme files for styling consistency across the application.
 
